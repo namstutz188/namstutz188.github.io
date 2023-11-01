@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(205, 205, 205);
+    font-family: "Calibri", "Times New Roman", serif;
+}
+h2 {
+    text-align: center;
+    color: rgb(46, 52, 175);
+    line-height: 2;
+}
+
+.header {
+    text-align: center;
+    color: rgb(2, 2, 97);
+    line-height: 2;
+}
+
+.header, h2, table {
+    position: relative;
+    top: 10px;
+}
+table {
+    border: 1px solid rgb(14, 3, 53);
+    margin: 0 auto; /*centers table*/
+    background-color: rgb(52, 180, 167);
+}
+table td,table th {
+    border: 1px solid rgb(14, 3, 53);
+    color: rgb(21, 5, 65);
+    background-color: rgb(173, 173, 255);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.name,.property {
+    text-align: center;
+}
+
+.table1 p, .table1 li {
+    background-color: rgb(173, 173, 255);
+}
+
+table .property {
+    font-family: monospace, 'Times New Roman', serif;
+    background-color:rgb(96, 96, 199)
+}
+
+td,th {
+    padding: 3px 5px;
+}
+
+
