@@ -1,54 +1,129 @@
-* {
-    box-sizing: border-box;
-    background-color: rgb(205, 205, 205);
-    font-family: "Calibri", "Times New Roman", serif;
-}
-h2 {
-    text-align: center;
-    color: rgb(46, 52, 175);
-    line-height: 2;
+/*Default Styles*/
+
+html {
+    font-family: 'Calibri', 'Times New Roman', sans;
+    background-color: rgb(240, 240, 240);
 }
 
-.header {
-    text-align: center;
-    color: rgb(2, 2, 97);
-    line-height: 2;
+.container {
+    border: 2px solid black;
+    padding: 0px 10px;
+    margin: 10px 0px;
 }
 
-.header, h2, table {
-    position: relative;
-    top: 10px;
-}
-table {
-    border: 1px solid rgb(14, 3, 53);
-    margin: 0 auto; /*centers table*/
-    background-color: rgb(52, 180, 167);
-}
-table td,table th {
-    border: 1px solid rgb(14, 3, 53);
-    color: rgb(21, 5, 65);
-    background-color: rgb(173, 173, 255);
+/*Color*/
+
+.color-container {
+    border: 1px solid black;
+    margin:  10px 5px;
+    padding: 0px 10px;
 }
 
-ul {
-    list-style-position: inside;
+.color {
+    color: white;
+    margin:  10px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 31%; /*has width of 31* of parent element which should be container*/
+    border: 1px solid grey;
 }
 
-.name,.property {
-    text-align: center;
+.color1 {
+    background-color: rgb(27, 27, 121);
+}
+.color2 {
+    background-color: lightgrey;
+}
+.color3 {
+    background-color: rgb(160, 219, 238);
+}
+.color4 {
+    background-color: rgb(32, 29, 29);
 }
 
-.table1 p, .table1 li {
-    background-color: rgb(173, 173, 255);
+/*Fonts*/
+
+.font-container {
+    border: 1px solid black;
+    margin:  10px 5px;
+    padding: 0px 10px;
 }
 
-table .property {
-    font-family: monospace, 'Times New Roman', serif;
-    background-color:rgb(96, 96, 199)
+.font {
+    margin:  10px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 47%; /*has width of 31* of parent element which should be container*/
 }
 
-td,th {
-    padding: 3px 5px;
+.font-type {
+    text-decoration: underline;
+    font-weight: 505;
 }
 
+.font1 {
+    font-family: 'Lato', sans;
+}
 
+.font2 {
+    font-family: 'Roboto', sans;
+}
+
+.font3 {
+    font-family: 'Inter', sans;
+}
+
+.fourhundred {
+    font-weight: 400;
+}
+
+.ital {
+    font-style: italic;
+}
+.fivehundred {
+    font-weight: 500;
+}
+
+.threehundred {
+    font-weight: 300;
+}
+
+.eighthundred {
+    font-weight: 800;
+}
+
+/*Text Styles*/
+
+.text-container {
+    border: 1px solid black;
+    margin:  10px 5px;
+    padding: 0px 10px;
+}
+
+.text {
+    margin:  10px 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 31%; /*has width of 31* of parent element which should be container*/
+}
+
+.textstyleh1 {
+    font-weight: 800;
+    font-size: 28px;
+    font-family: 'Inter', sans;
+    text-decoration: underline;
+}
+
+.textstyleh2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Roboto', sans;
+    text-decoration: underline;
+}
+
+.textstylep {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans;
+    text-decoration: underline;
+}
