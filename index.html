@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Common CSS Properties Cheat Sheet</title>
-        <link href="reset.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
+        <title>Website Style Guide</title>
+        <link href="./resources/css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--Links Lato light 300 reg 400 reg 400 italic, Roboto reg 400 reg 400 italic and med 500, and Inter reg 400 extrabold 800 fonts from Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lato:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class = "header">
-            <h1>CSS Properties Cheat Sheet</h1>
+
+        <h1>Nick's Website Style Guide</h1>
+        <img src="./resources/Nick’s Style Guide.png" />
+
+        <div class="container">
+            <h2>Color Styles</h2>
+
+            <div class = "color-container">
+                <div class="color color1">
+                    <p>Dark Blue</p>
+                    <p>rgb(27,27,121)</p>
+                    <p>Used as a primary site color</p>
+                </div>
+
+                <div class="color color2">
+                    <p>Light Grey</p>
+                    <p>rgb(211,211,211)</p>
+                    <p>Used as secondary site color</p>
+                </div>
+
+                <div class="color color3">
+                    <p>Light Blue</p>
+                    <p>rgb(160,219,238)</p>
+                    <p>Used as a supporting site color</p>
+                </div>
+
+                <div class="color color4">
+                    <p>Charcoal</p>
+                    <p>rgb(32,29,29)</p>
+                    <p>Used as a supporting site color</p>
+                </div>
+            </div>
         </div>
 
-        <div class = "cheatsheet">
-            <div class = "color">
-                <h2>Color</h2>
-                <table class = "table1">
-                    <thead>
-                        <th scope = "col">Property</th>
-                        <th scope = "col">Name</th>
-                        <th scope = "col">Description</th>
-                    </thead>
-                    <tr>
-                        <td class = "property">color</td>
-                        <td class ="name">Color</td>
-                        <td>
-                            <p>Sets the color of the text for the selected element.</p>
-                            <p>The color can be set in a variety of ways including:</p>
-                            <ul>
-                                <li>Named colors like 'green' or 'red'</li>
-                                <li>Hexadecimal (#000000)</li>
-                                <li>rgb(xx,yy,zz)</li>
-                                <li>rgba(xx,yy,zz,0.5)</li>
-                                <li>hsl(xx,yy%,zz%)</li>
-                                <li>hsla(xx,yy%,zz%,0.5)</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class = "property">background-color</td>
-                        <td class ="name">Background Color</td>
-                        <td>Sets the background color of the specified element. <br>
-                        Can be set in the same ways as mentioned above for the color property.</td>
-                    </tr>
-                </table>
+        <div class = "container">
+            <h2>Font Styles</h2>
+            <div class = "font-container">
+
+                <div class = "font font1">
+                    <p class="font-type">Lato</p>
+                    <p class ="threehundred">The quick brown fox jumps over the lazy dog.</p>
+                    <p class = "fourhundred">The quick brown fox jumps over the lazy dog.</p>
+                    <p class = "fourhundred ital">The quick brown fox jumps over the lazy dog.</p>
+
+                </div>
+
+                <div class = "font font2">
+                    <p class="font-type">Roboto</p>
+                    <p class ="fourhundred">The quick brown fox jumps over the lazy dog.</p>
+                    <p class = "fourhundred ital">The quick brown fox jumps over the lazy dog.</p>
+                    <p class = "fivehundred">The quick brown fox jumps over the lazy dog.</p>
+                    
+                </div>
+
+                <div class = "font font3">
+                    <p class="font-type">Inter</p>
+                    <p class ="fourhundred">The quick brown fox jumps over the lazy dog.</p>
+                    <p class = "eighthundred">The quick brown fox jumps over the lazy dog.</p>
+                </div>
 
             </div>
 
-            <div class = 'typography'>
-                <h2>Typography</h2>
-                <table class = "table2">
-                    <thead>
-                        <th scope = "col">Property</th>
-                        <th scope = "col">Name</th>
-                        <th scope = "col">Description</th>
-                    </thead>
-                    <tr>
-                        <td class = "property">font-family</td>
-                        <td class ="name">Font</td>
-                        <td>Used to change the font of an element.<br>
-                        Can be a web safe font or can link in a web font with an @font-face ruleset.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">font-weight</td>
-                        <td class ="name">Font weight (Bold or Light)</td>
-                        <td>Used to bold text or make it lighter.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">font-style</td>
-                        <td class ="name">Italics</td>
-                        <td>Used to italicize text.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">text-transform</td>
-                        <td class ="name">Uppercase or Lowercase</td>
-                        <td>Used to make text all uppercase or all lowercase.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">letter-spacing</td>
-                        <td class ="name">Letter Spacing</td>
-                        <td>Used to set a spacing between letters.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">word-spacing</td>
-                        <td class ="name">Word Spacing</td>
-                        <td>Used to set spacing in between words.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">line-height</td>
-                        <td class ="name">Line Height</td>
-                        <td>Sets how tall each line containing text should be.</td>
-                    </tr>
-                    <tr>
-                        <td class = "property">text-align</td>
-                        <td class ="name">Text Alignment</td>
-                        <td>Aligns text to some side of the container.</td>
-                    </tr>
-                    
-                    
-                </table>
+        </div>
+
+        <div class = "container">
+            <h2>Text Styles</h2>
+            <div class = "text-container">
+                <div class="text headerone">
+                    <p class="textstyleh1">H1: Main Header</p>
+                    <ul>
+                        <li>Font-weight: 800 (extrabold)</li>
+                        <li>Font-size: 28px</li>
+                        <li>Font-family: Inter</li>
+                    </ul>
+                </div>
+
+                <div class ="text headertwo">
+                    <p class="textstyleh2">H2: Subheading</p>
+                    <ul>
+                        <li>Font-weight: 500 (bold)</li>
+                        <li>Font-size: 20px</li>
+                        <li>Font-family: Roboto</li>
+                    </ul>
+                </div>
+
+                <div class = "text paragraph">
+                    <p class="textstylep">p: Paragraph</p>
+                    <ul>
+                        <li>Font-weight: 400 (regular)</li>
+                        <li>Font-size: 16px</li>
+                        <li>Font-family: Lato</li>
+                    </ul>
+                </div>
             </div>
+
         </div>
 
     </body>
