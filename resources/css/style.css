@@ -1,0 +1,209 @@
+/*Universal Styles*/
+html {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(254, 234, 205);
+}
+
+body {
+    display:grid;
+    grid-template:  5.5rem 2fr 2fr 3fr 10rem / 1fr;
+}
+
+/*Header*/
+
+.head {
+    display: flex;
+    grid-row: 1/span 1;
+    border-bottom: 2px solid rgb(188, 136, 4);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
+
+.title h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.title img {
+  
+    display: block;
+    max-width: 100%; 
+    height: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5%;
+    height:100%;
+    
+}
+
+.nav a {
+   font-size: 1rem;
+   text-decoration: underline;
+   margin: 0 1%;
+   white-space: nowrap;
+
+}
+
+/*Mission Statement*/
+
+.mission-statement {
+    grid-row: 2/span 1;
+    text-align:center;
+    background-image: url("../fritofactory.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color:white;
+    padding: 2.5% 0;
+    width:100%;
+}
+
+.mission-statement h2 {
+    font-size: 2rem;
+}
+
+.mission-statement h3 {
+    font-size: 1.75rem;
+}
+
+/*Products*/
+.product {
+    grid-row:3/span 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.product-head {
+    text-align:center;
+    margin-bottom: 5%;
+}
+
+.product-head h2 {
+    font-size: 2rem;
+}
+
+.product-head h3 {
+    margin-top: 2%;
+    font-size: 1.75rem;
+}
+
+.palet-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flavor {
+    margin: 3%;
+}
+
+.flavor p {
+
+    text-align: center;
+    margin-top: 4%;
+}
+
+.flavor img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border: 1px solid black;
+}
+
+
+/*Employees*/
+
+.employees-box {
+    grid-row: 4/ span 1;
+    text-align:center;
+    background-image: url("../businessdogbackground.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-bottom: 2px black solid;
+}
+
+.employees-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+    margin: 2.5% auto 5% auto;
+    padding: 1%;
+}
+
+.employee-list {
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+
+.emp {
+    width: 31%;
+}
+
+.emp img {
+    height: 65%;
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.emp h3 {
+    margin-top: 2%;
+    font-size: 1.75rem;
+}
+
+.emp p {
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+.emptext {
+    background-color: white;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 0 2%;
+    padding-bottom: 0.75%;
+}
+
+
+
+
+/*Footer*/
+
+.footer {
+    grid-row: 5/span 1;
+    text-align:center;
+    display:flex;
+    align-content:space-around;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
