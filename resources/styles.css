@@ -1,25 +1,40 @@
-/* */
+/*Universal*/
 body {
     display: grid; /*sets up entire page as a CSS grid container*/
     grid-template: 6.5rem 1fr 1fr 1fr / repeat(2, 1fr);
     background-color: rgb(169, 116, 255);
+    justify-items: start;
+    align-items: center;
+    margin: 0.75rem 1.5rem;
 }
 
-h1 {
+/*Header section*/
+
+#headA {
     grid-area: 1 / 1 / span 1 / span 1;
+    align-self: center;
+    justify-self: start;
 }
 
 nav {
     grid-area: 1 / 2 / span 1 / span 1;
+    justify-self: end;
+    align-self: center;
 }
+
+/*About section*/
 
 #about {
     grid-area: 2 / 1 / span 1 / span 1;
 }
 
+/*Projects section*/
+
 #projects {
     grid-area: 3 / 1 / span 2 / span 1;
 }
+
+/*Skills section*/
 
 #skills {
     grid-area: 5 / 1 / span 1 / span 1;
