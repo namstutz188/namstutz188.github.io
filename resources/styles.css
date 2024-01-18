@@ -1,1 +1,26 @@
 /* */
+body {
+    display: grid; /*sets up entire page as a CSS grid container*/
+    grid-template: 6.5rem 1fr 1fr 1fr / repeat(2, 1fr);
+    background-color: rgb(169, 116, 255);
+}
+
+h1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+nav {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+#about {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+#projects {
+    grid-area: 3 / 1 / span 2 / span 1;
+}
+
+#skills {
+    grid-area: 5 / 1 / span 1 / span 1;
+}
