@@ -10,6 +10,14 @@ body {
     font-family: 'Calibri',sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(235, 180, 235);
+}
+
 h2 {
     font-size: 3rem;
     color: rgb(51, 0, 51);
