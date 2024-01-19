@@ -42,6 +42,11 @@ nav {
     align-self: center;
 }
 
+nav a {
+    font-size: 1.45rem;
+    margin: 0rem 0.25rem;
+}
+
 /*About section*/
 
 #about {
