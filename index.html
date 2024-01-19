@@ -3,6 +3,7 @@
     <head>
         <title>Nick A.'s Portfolio</title>
         <link rel = "stylesheet" href = "./resources/styles.css">
+        <script src = "hideProject.js" defer></script> <!--defers to load till the end since involves manipulating the DOM-->
     </head>
     <body>
         <a href = "index.html" id = "headA"><h1>Nick Amstutz</h1></a>
@@ -32,19 +33,20 @@
             <h2>Projects</h2>
 
             <div class = "project" id = "proj1">
-                <h3>Lucy's Frito Factory</h3>
+                <h3 id = "target1">Lucy's Frito Factory</h3>
                 <div class = "project description" id = "desc1">
                     <p>A static webpage utilizing CSS grid and CSS flexbox along with HTML to create a fake company website.</p>
+                    <img id = "img1" src = "resources/fritofactory.png" alt = "Lucy's Frito Factor Company Website">
                 </div>
-                <img id = "img1" src = "resources/fritofactory.png" alt = "Lucy's Frito Factor Company Website">
+                
             </div>
 
             <div class = "project" id = "proj2">
-                <h3>CSS Cheatsheat</h3>
+                <h3 id = "target2">CSS Cheatsheet</h3>
                 <div class = "project description" id ="desc2">
-                    <p>A static webpage using HTML tables and rudimentary CSS styling to create a CSS cheatsheat.</p>
+                    <p>A static webpage using HTML tables and rudimentary CSS styling to create a CSS cheatsheet.</p>
+                    <img id = "img2" src = "resources/cheatsheet.png" alt = "CSS Cheatsheat Webpage">
                 </div>
-                <img id = "img2" src = "resources/cheatsheet.png" alt = "CSS Cheatsheat Webpage">
             </div>
         </div>
 

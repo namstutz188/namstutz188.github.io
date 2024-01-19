@@ -1,7 +1,7 @@
 /*Universal*/
 body {
     display: grid; /*sets up entire page as a CSS grid container*/
-    grid-template: 6.5rem 1fr 1fr 1fr / repeat(2, 1fr);
+    grid-template: 6.5rem 33% 33% 34% / repeat(2, 1fr); /*changed last 3 rows to percentages so their size changes baseed on what is on the webpage*/
     gap: 0.75rem;
     background-color: rgb(169, 116, 255);
     justify-items: start;
@@ -67,7 +67,7 @@ nav a {
 }
 
 #aboutimg img {
-    max-width: 100%;
+    max-width: 100%; /*two stles so the img doesn't blow up the page*/
     height: auto;
 }
 
@@ -81,6 +81,14 @@ nav a {
 #img1, #img2 {
     max-width: 100%;
     height: auto;
+}
+
+#target1:hover, #target2:hover {
+    text-decoration: underline;
+}
+
+#desc1, #desc2 {
+    display: none;
 }
 
 /*Skills section*/
