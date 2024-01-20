@@ -10,8 +10,9 @@ body {
     font-family: 'Calibri',sans-serif;
 }
 
-a {
+a,h1 {
     text-decoration: none;
+    color: rgb(77, 24, 77);
 }
 
 a:hover {
