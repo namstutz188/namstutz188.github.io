@@ -15,7 +15,7 @@ a,h1 {
     color: rgb(77, 24, 77);
 }
 
-a:hover {
+a:hover,h1:hover {
     color: rgb(235, 180, 235);
 }
 
